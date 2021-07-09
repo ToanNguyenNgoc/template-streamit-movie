@@ -1,0 +1,29 @@
+<div id="nav" class="nav">
+      <div class="grid grid-nav">
+          <div class="nav-left">
+              <button onclick="showMenuNav()" class="cus-btn-mobile"><i class="fas fa-bars"></i></button>
+              <a [routerLink]="['/']"><img src="./assets/img/logo.png" alt=""></a>
+              <button onclick="showUserNav()" class="cus-btn-mobile"><i class="fas fa-ellipsis-h"></i></button>
+          </div>
+          <div class="nav-center">
+              <ul class="nav-center__list">
+                  <li><a href="#banner">HOME</a></li>
+                  <li><a href="#movie">MOVIES</a></li>
+                  <li><a href="#tvShow">TV SHOWS</a></li>
+                  <li><a href="#about">ABOUT</a></li>
+              </ul>
+          </div>
+          <div class="nav-right">
+              <ul class="nav-right__list">
+                  <input type="text" placeholder="Search hear...">
+                  <li><div class="nav-right__list-search"><i class="fas fa-search"></i></div></li>
+                  <li><div class="nav-right__list-notifi"><i class="far fa-bell"></i></div></li>
+                  <li>
+                      <div class="nav-right__list-avatar">
+                          <img src="./assets/img/user.jpg" alt="">
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
